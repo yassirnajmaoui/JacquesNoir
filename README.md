@@ -12,6 +12,10 @@ The code is split in two sections, the game logic kernel and the GUI.
 The game logic kernel can be used independently of the GUI. There is a "display" function in `blackjack.cpp` used to implement a Command-line version.
 The GUI uses Qt5 and is quite straight-forward. There are images in the "assets" folder used for displaying cards or emojis.
 
+There is a simplistic Command-line implementation in BJCommandLineImplementation.cpp.
+
+Mind that this is an old and abandonned project.
+
 ## Screenshots
 
 ![In-game](./screenshots/in-game.png)\
