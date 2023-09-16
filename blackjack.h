@@ -1,7 +1,7 @@
 #ifndef BLACKJACK_H
 #define BLACKJACK_H
 
-#include "includes.h"
+#include "includes_BJ.h"
 
 class Hand
 {
@@ -48,8 +48,8 @@ public:
 
 	int getHandBet(int hindex = 0);
 
-	//std::ostream& display(std::ostream& os) const;
-	//std::ostream& displayCard(std::ostream& os, uint8_t card) const;
+	std::ostream& display(std::ostream& os) const;
+	std::ostream& displayCard(std::ostream& os, uint8_t card) const;
 
 private:
 	inline bool addCard(Hand& h, uint8_t card);

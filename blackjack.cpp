@@ -309,7 +309,7 @@ uint8_t Blackjack::pickFromDeck()
 
 
 }
-/*
+
 std::ostream& Blackjack::display(std::ostream& os) const
 {
 
@@ -360,4 +360,4 @@ std::ostream& Blackjack::displayCard(std::ostream& os, uint8_t card) const
 	else if (shape == 3) os << "Tr";
 	return os;
 }
-*/
+
